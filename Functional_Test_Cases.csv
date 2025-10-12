@@ -1,5 +1,0 @@
-TC ID,Linked Scenario,Description,Preconditions,Steps,Expected Result
-TC-01,TS-01,Login with valid credentials,Registered user exists with username testuser and valid password.,1. Navigate to DemoBlaze login page. 2. Enter valid username and password. 3. Click Log in.,User is redirected to homepage; header shows “Welcome testuser”.
-TC-02,TS-01,Login with invalid password (negative test),Registered user exists.,1. Navigate to login page. 2. Enter valid username and an incorrect password. 3. Click Log in.,Error message “Wrong password” appears; user remains on login screen.
-TC-03,TS-02,Add multiple quantities of same product (edge/boundary),Product has at least 5 in stock.,1. Open product page. 2. Click Add to cart five times.,Cart counter increases accordingly; cart shows correct quantity (5).
-TC-04,TS-03,Checkout with invalid card number (failure path),At least one item is in the cart.,"1. Click Cart ? Place Order. 2. Enter valid shipping info and an invalid card number (e.g., 1111-1111-1111-1111). 3. Click Purchase.",Transaction is declined; clear error message displayed; order is not created.
