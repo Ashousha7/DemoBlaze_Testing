@@ -19,38 +19,6 @@ It was executed as part of a professional QA practice to simulate **real-world t
 
 ---
 
-## 🧩 Project Structure
-DemoBlaze_Project/
-│
-├── Requirements_Analysis/
-│ ├── User_Stories.xlsx
-│ └── User_Story_Issues.docx
-│
-├── Test_Design/
-│ ├── Test_Scenarios.xlsx
-│ ├── Functional_Test_Cases.xlsx
-│ └── Functional_Test_Cases.csv
-│
-├── Testing_Execution/
-│ ├── Defect_Logs.xlsx
-│ └── Functional_Test_Report.docx
-│
-├── JIRA_Migration/
-│ ├── Bulk_Import_CSV.csv
-│ └── Excel_to_JIRA_Traceability_Screenshot.png
-│
-├── Usability_Testing/
-│ └── Usability_Report.docx
-│
-├── Release_Management/
-│ ├── Release_Report.docx
-│ └── Release_Enhancements_Proposal.pptx
-│
-└── Regression_Testing/
-└── (Folder prepared for future test cycles)
-
----
-
 ## 🧠 Testing Workflow  
 1. **Requirements Analysis** – Extracted and reviewed user stories to identify key functionalities.  
 2. **Test Design** – Created detailed test scenarios and cases with expected results.  
@@ -101,6 +69,3 @@ This project is for **educational and portfolio purposes only.**
 DemoBlaze is a public demo site used for software testing practice.
 
 ---
-
-### 🌟 Short Description (for GitHub or LinkedIn)
-> Comprehensive manual testing case study for the DemoBlaze website — covering requirements, test design, execution, and defect management using JIRA + Zephyr.
